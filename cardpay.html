@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Bid-Stop LPU</title>
+    <link rel="stylesheet" href="cardpay.css">
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+        <img src="site-logo.jpg" alt="Your Site Logo" id="site-logo">
+        <div class="header-text">
+            <h1>Bid-Stop LPU</h1>
+            <p>Your one-stop solution for bidding</p>
+        </div>
+    </div>
+    <div class="header-right">
+        <button onclick="window.location.href='cse326.html'">Home</button>
+        <button onclick="window.location.href='about.html'">About Us</button>
+        <button onclick="window.location.href='#contact-us-section'">Contact Us</button>
+        <button onclick="window.location.href='login-page.html'">Login</button>
+    </div>
+</header>
+
+<section class="payment-section">
+    <h2>Payment Details</h2>
+    <form id="payment-form" action="#">
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card-number" required>
+
+        <label for="expiry-date">Expiry Date:</label>
+        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YYYY" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required>
+
+        <button type="submit" onclick="window.location.href='cse326.html'">Make Payment</button>
+    </form>
+    <p id="payment-message"></p>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3><a href="about.html">About Us</a></h3>
+            <p>Learn more about Bid-Stop LPU and our mission to provide a unique auction experience.</p>
+        </div>
+        <div class="footer-section">
+            <h3><a href="#contact-us-section">Contact Us</a></h3>
+            <p>Email: info@bidstoplpu.com<br>Phone: 0123456789</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <p>Stay connected with us on social media for the latest updates and auctions.</p>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/login?lang=en" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; Bid-Stop LPU. Made by Kavya Sharma, Malay Shikhar Soni, Raghav</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

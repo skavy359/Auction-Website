@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bid-Stop LPU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+        <img src="site-logo.jpg" alt="Your Site Logo" id="site-logo">
+        <div class="header-text">
+            <h1>Bid-Stop LPU</h1>
+            <p>Your one-stop solution for bidding</p>
+        </div>
+    </div>
+    <div class="header-right">
+        <button onclick="window.location.href='cse326.html'">Home</button>
+        <button onclick="window.location.href='about.html'">About Us</button>
+        <button onclick="window.location.href='#contact-us-section'">Contact Us</button>
+        <button onclick="window.location.href='login-page.html'">Login</button>
+    </div>
+</header>
+<section class="welcome-section">
+    <div class="welcome-content">
+        <h2>Welcome to BidStop LPU</h2>
+        <p>Your one-stop for rare and unique items</p>
+        <button onclick="window.location.href='#why-choose-us'">Explore</button>
+    </div>
+</section>
+<section class="why-choose-us" id="why-choose-us">
+    <h2><u>Why BidStop LPU?</u></h2>
+    <div class="choose-us-container">
+        <div class="choose-us-box">
+            <h3>Secure Bidding</h3>
+            <p>Our platform prioritizes the security of your bids, ensuring a safe and trustworthy experience.</p>
+        </div>
+        <div class="choose-us-box">
+            <h3>Diverse Selection</h3>
+            <p>Discover a wide range of items for auction, from rare collectibles to everyday essentials.</p>
+        </div>
+    </div>
+    <div class="choose-us-container">
+        <div class="choose-us-box">
+            <h3>User-Friendly Interface</h3>
+            <p>Enjoy a seamless and intuitive bidding process with our easy-to-navigate website.</p>
+        </div>
+        <div class="choose-us-box">
+            <h3>Customer Support</h3>
+            <p>Our dedicated support team is ready to assist you with any questions or concerns.</p>
+        </div>
+    </div>
+</section>
+
+<section class="auction-catalogue">
+    <h2><u>Auction Catalogue</u></h2>
+    <div class="catalogue-container">
+        <a href="Panjurli Mask.html" class="catalogue-box">
+            <img src="1.jpg" alt="Product 1">
+            <div class="box-content">
+                <h3>Panjurli Mask</h3>
+                <p>Current Bidding Price: Rs.163800</p>
+                <p>No. of Bids: 12</p>
+                <p>Time Left: <span id="timer1">2h 30m</span></p>
+            </div>
+        </a>
+        <a href="Arasu-Deva.html" class="catalogue-box">
+            <img src="2.jpg" alt="Product 2">
+            <div class="box-content">
+                <h3>Arasu-Deva</h3>
+                <p>Current Bidding Price: Rs.27341</p>
+                <p>No. of Bids: 7</p>
+                <p>Time Left: <span id="timer2">1h 45m</span></p>
+            </div>
+        </a>
+        <a href="pot.html" class="catalogue-box">
+            <img src="3.jpg" alt="Product 2">
+            <div class="box-content">
+                <h3>Pilichamundi On Tiger</h3>
+                <p>Bidding Price: Rs.16450</p>
+                <p>No. of Bids: 19</p>
+                <p>Time Left: <span id="timer2">11h 35m</span></p>
+            </div>
+        </a>
+        <a href="candlestand.html" class="catalogue-box">
+            <img src="4.jpg" alt="Product 2">
+            <div class="box-content">
+                <h3>Rare Vintage Pink Candle Stand</h3>
+                <p>Current Bidding Price: Rs.12531</p>
+                <p>No. of Bids: 31</p>
+                <p>Time Left: <span id="timer2">12h 05m</span></p>
+            </div>
+        </a>
+        <a href="nasa.html" class="catalogue-box">
+            <img src="5.jpg" alt="Product 2">
+            <div class="box-content">
+                <h3>NASA Hasselblad Space Camera</h3>
+                <p>Current Bidding Price: Rs.78216</p>
+                <p>No. of Bids:56 </p>
+                <p>Time Left: <span id="timer2">1h</span></p>
+            </div>
+        </a>
+        <a href="apple.html" class="catalogue-box">
+            <img src="6.jpg" alt="Product 2">
+            <div class="box-content">
+                <h3>First ever Apple Computer</h3>
+                <p>Current Bidding Price: Rs.587612</p>
+                <p>No. of Bids: 86</p>
+                <p>Time Left: <span id="timer2">1h 20m</span></p>
+            </div>
+        </a>
+        <a href="moonrock.html" class="catalogue-box">
+            <img src="7.jpg" alt="Product 2">
+            <div class="box-content">
+                <h3>Moon Rock Sample</h3>
+                <p>Current Bidding Price: Rs.14451511</p>
+                <p>No. of Bids: 6</p>
+                <p>Time Left: <span id="timer2">1h 23m</span></p>
+            </div>
+        </a>
+        <a href="bat.html" class="catalogue-box">
+            <img src="8.jpg" alt="Product 2">
+            <div class="box-content">
+                <h3>Virat Kohli signed Bat</h3>
+                <p>Current Bidding Price: Rs.50000</p>
+                <p>No. of  Bids: 65</p>
+                <p>Time Left: <span id="timer2">4h 05m</span></p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<section class="contact-us-section" id="contact-us-section">
+    <h2><u>Contact Us</u></h2>
+    <form id="contact-form" action="#">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" pattern="\d{10}" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    <p class="thank-you-message">Thanks for submitting your details.</p>
+</section>
+
+</body>
+</html>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3><a href="about.html">About Us</a></h3>
+            <p>Learn more about Bid-Stop LPU and our mission to provide a unique auction experience.</p>
+        </div>
+        <div class="footer-section">
+            <h3><a href="#contact-us-section">Contact Us</a></h3>
+            <p>Email: info@bidstoplpu.com<br>Phone: 0123456789</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <p>Stay connected with us on social media for the latest updates and auctions.</p>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/login?lang=en" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; Bid-Stop LPU. Made by Kavya Sharma, Malay Shikhar Soni, Raghav</p>
+    </div>
+</footer>
